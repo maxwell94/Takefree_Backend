@@ -1,0 +1,52 @@
+{
+  "name": "Zummy_backend",
+  "version": "1.0.0",
+  "description": "TakeFree backend application",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html mocha test --recursive --timeout=10000 --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxwell94/Zummy_backend.git"
+  },
+  "keywords": [],
+  "author": "Max Deodu, Manu Scazza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxwell94/Zummy_backend/issues"
+  },
+  "homepage": "https://github.com/maxwell94/Zummy_backend#readme",
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "bcrypt": "^3.0.6",
+    "compression": "^1.7.4",
+    "config": "^3.2.3",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^3.21.1",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.5",
+    "morgan": "^1.9.1",
+    "winston": "^3.2.1",
+    "winston-mongodb": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "debug": "^4.1.1",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.1",
+    "nyc": "^14.1.1",
+    "sinon": "^7.5.0",
+    "supertest": "^4.0.2"
+  }
+}

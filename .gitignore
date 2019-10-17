@@ -1,0 +1,7 @@
+node_modules/
+coverage/
+.nyc_output
+config/development.json
+combined.log
+errors.log
+exceptions.log

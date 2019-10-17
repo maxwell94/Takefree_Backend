@@ -1,0 +1,8 @@
+{
+  "database": "mongodb://localhost/zummy-db_test",
+  "settings": {
+    "useUnifiedTopology": true,
+    "useNewUrlParser": true
+  },
+  "jwtPrivateKey": "1234"
+}
