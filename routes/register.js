@@ -19,3 +19,5 @@ router.post('/', async (req, res) => {
 
   res.send(_.pick(user, ['_id', 'username', 'isAdmin']));
 });
+
+module.exports = router;
